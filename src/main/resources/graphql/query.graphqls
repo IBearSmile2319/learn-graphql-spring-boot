@@ -1,0 +1,6 @@
+type Query {
+    bankAccounts: [BankAccount]
+    bankAccount(id: ID!): BankAccount
+}
+
+

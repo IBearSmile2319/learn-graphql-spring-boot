@@ -1,0 +1,4 @@
+type Mutation {
+    AccountById(id: ID!): BankAccount
+    createAccount(input: BankAccountInput!): BankAccount
+}

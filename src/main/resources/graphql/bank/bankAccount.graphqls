@@ -1,0 +1,10 @@
+type BankAccount {
+    id: ID!
+    client: Client!
+    currency: Currency!
+}
+
+input BankAccountInput {
+    name: String
+    currency: Currency
+}
